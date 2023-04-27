@@ -36,7 +36,7 @@ def bfs(start,goal,j1,j2):
                 q.put((a-temp,b+temp))
                 visited.append((a-temp,b+temp))
         if(b>0 and a<j2):
-            temp=min(a-j1,b)
+            temp=min(j1-a,b)
             if(not is_visited((a+temp,b-temp),visited)):
                 q.put((a+temp,b-temp))
                 visited.append((a+temp,b-temp))
