@@ -14,9 +14,9 @@ def is_goal(state, goal):
 
 # This function performs DFS algorithm to find the solution
 def dfs(current, goal, jug1_cap, jug2_cap, visited):
+    visited.append(current)
     if is_goal(current, goal):
         return current,visited
-    visited.append(current)
     a, b = current
     # fill jug 1
     if a < jug1_cap and not is_visited((jug1_cap, b), visited):
