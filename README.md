@@ -1,2 +1,3 @@
 # ai_code
-https://drive.google.com/drive/folders/17lKGLvJYHW2pp2uU9cCyC4eXiXGv4h5m
+## SHORTER VERSION OF CODES HERE ⬇️⬇️⬇️
+  https://docs.google.com/document/d/1jpnFGZDHQeZ5IEsz3But_Szh91ZsngVGk_S1ggWRysU/edit?usp=sharing
