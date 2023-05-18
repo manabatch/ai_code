@@ -1,3 +1,4 @@
+#pip install simpleai
 from simpleai.search import CspProblem, backtrack
 def constraint_func(names, values):
 	return values[0] != values[1]
